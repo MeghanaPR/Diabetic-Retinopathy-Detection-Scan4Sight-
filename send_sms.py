@@ -2,9 +2,9 @@ from twilio.rest import Client
 
 def send(value, classes):
 #Your Account SID from twilio.com/console
-     account_sid = "AC7af9c43a8eebf5f95e207e3074eeed88"
+     account_sid = "your_acc_sid"
 #Your Auth Token from twilio.com/console
-     auth_token  = "00e6d135945ccca5cbb0324fce3fed09"
+     auth_token  = "your_auth_token"
 
      client = Client(account_sid, auth_token)
 
