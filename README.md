@@ -20,6 +20,8 @@ Scan4Sight is designed to assist clinicians and patients by providing quick, rel
 
    - Image Visualization: Displays the analyzed image along with the predicted label and class.
 
+Dataset : APOTS Kaggle Blindness Detection Dataset
+
 🛠️ Tech Stack:
 
     Programming-	Python
