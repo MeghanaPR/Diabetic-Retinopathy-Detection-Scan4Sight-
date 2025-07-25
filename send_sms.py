@@ -9,8 +9,8 @@ def send(value, classes):
      client = Client(account_sid, auth_token)
 
      message = client.messages.create(
-         to="+919535148572",
-         from_="+17373734268",
+         to="to_phone_number",
+         from_="from_phone_number",
          body=f"Blindness detection system report!\nSeverity level is : {value}\nClass is {classes}")
 
      print('Message sent Succesfully...')
